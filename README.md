@@ -238,7 +238,7 @@ This Bootcamp is an exercise in test driven development (TDD). When you first st
     *note:* You may have to install some packages using npm install -g `package name`
     - **now open** the `listings.server.model.js` file, you'll notice that this file looks a lot like the `ListingSchema.js` file from Bootcamp Assignment #2 because it is exactly the same so it should be easy to implement the functionality.
     - **test your implementation** again by running the tests found in `listings.server.model.test.js`
-    - try creating your own test: add a test listing at the top of the file and copy, paste, and modify one of the test to see if you can get it to run and successfully pass. Note the content of your database.   
+    - try creating your own test: add a test listing at the top of the file and copy, paste, and modify one of the test to see if you can get it to run and successfully pass. Note the content of your database. 
 
 5. In MongoDB Atlas, delete the current content of your database. Then reinitialize it by running    `node JSONtoMongo.js` out of the Bootcamp #2 directory. Check your database and make sure you have 147 documents before proceeding.
 
